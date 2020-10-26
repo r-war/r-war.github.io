@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League Football</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="apple-touch-icon" href="./img/icon-192x192.png">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.ico"/>
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png"/>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1565c0" />
+</head>
+<body>
+    <nav class="blue darken-3">
+        <div class="nav-wrapper container">
+          <a href="#" class="brand-logo">Football</a>
+          <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="desktop right hide-on-med-and-down" id="desktop"></ul>
+        </div>
+        <ul class="sidenav" id="mobile"></ul>
+    </nav>
+
+    <main class="container" id="body-content"></main>
+
+    <script src="./js/lib/moment.min.js"></script>
+    <script src="./js/lib/materialize.min.js"></script>
+    <script src="./js/lib/idb.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
